@@ -1,0 +1,31 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$mushroom: #8F6767;
+$grey: #f4f4f4;
+
+$font-stack: Helvetica, sans-serif;
+
+
+body {
+  background-color: $grey;
+  font: 100% $font-stack;
+  color:$mushroom;
+}
+
+
+h1 {
+  font-size: 20pt;
+}
+
+.container {
+  padding: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color:#a77d7d;
+  &:hover {
+  color:#D69A9A;
+  }
+}
